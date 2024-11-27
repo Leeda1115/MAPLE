@@ -1,2 +1,2 @@
 # MAPLE
-pytorch implement of 
+pytorch implement of MAPLE: Modality-Agnostic Prototype Learning for Egocentric Action Recognition
