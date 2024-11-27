@@ -1,0 +1,13 @@
+python ego4d_pretrain.py \
+--gpu 0 \
+--lr 0.0004 \
+--clip_gradient 0.5 \
+--snapshot_pref "./Exps/pretrain/" \
+--n_epoch 20 \
+--b 40 \
+--test_batch_size 32 \
+--dataset_name "ego4d_cmg" \
+--contra_effi 0.003 \
+--orthogonality  False \
+--model_save_path "/home/share2/lida/checkpoint/ego_t/0.2" \
+--print_freq 1 &>ego4d_cmg_out/prototype/ego_t_0.2.out&
